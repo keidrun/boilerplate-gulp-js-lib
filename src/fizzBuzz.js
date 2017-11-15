@@ -1,3 +1,4 @@
+// Keid's fizzBuzz sample.
 const fizzBuzz = num => {
   const arry = [];
   for (i = 1; i <= num; i++) {
