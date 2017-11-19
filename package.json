@@ -1,8 +1,7 @@
 {
   "name": "boilerplate-gulp-js-lib",
   "version": "0.0.0",
-  "description":
-    "Boilerplate of Javascript library development with Gulp to publish to NPM.",
+  "description": "Boilerplate of Javascript library development with Gulp to publish to NPM.",
   "main": "src/index.js",
   "scripts": {
     "start": "gulp",
@@ -18,7 +17,10 @@
     "url": "https://github.com/keidrun/boilerplate-gulp-js-lib/issues"
   },
   "homepage": "https://github.com/keidrun/boilerplate-gulp-js-lib#readme",
-  "files": ["src", "dist"],
+  "files": [
+    "src",
+    "dist"
+  ],
   "dependencies": {},
   "devDependencies": {
     "babel-core": "^6.26.0",
@@ -28,7 +30,7 @@
     "gulp-babel": "^7.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-istanbul": "^1.1.2",
-    "gulp-mocha": "^4.3.1",
+    "gulp-mocha": "^3.0.1",
     "gulp-plumber": "^1.1.0",
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^3.0.0",
