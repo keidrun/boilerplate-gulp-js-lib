@@ -3,20 +3,23 @@
 Boilerplate of Javascript library development with Gulp to publish to NPM.
 
 ## Description
-This boilerplate provides an automatic Javascript(ES6/ES2015) library development environment with gulp to publish your library to NPM.
+
+This boilerplate provides an automatic `Javascript(ES6/ES2015)` library
+development environment with `Gulp` to publish your library to `NPM`.
 
 ## Automatic Settings
 
-- transpile (ES6->ES5)
-- test (mocha and chai)
-- coverage (istanbul)
-- package (minify)
+* lint (eslint)
+* transpile (ES6->ES5)
+* test (mocha and chai)
+* coverage (istanbul)
+* package (minify)
 
 ## Preconditions
 
-- Installed `yarn` or `npm`.
-- Installed `gulp` globally.
-- (Optional) Had your account of `NPM`.
+* Installed `yarn` or `npm`.
+* Installed `gulp` globally.
+* (Optional) Had your account of `NPM`.
 
 ## Steps
 
