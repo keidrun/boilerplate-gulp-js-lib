@@ -29,5 +29,9 @@ development environment with `Gulp` to publish your library to `NPM`.
 1. Add it to `index.js` if you done
 1. (Optional) Execute `npm publish` to publish it to NPM if you done.
 
+## Note
+
+* We must use 'gulp-mocha@^3.0.1' (not latest version) because of its issue. See [this](https://github.com/SBoudrias/gulp-istanbul/issues/115).
+
 [depstat-url]: https://david-dm.org/keidrun/boilerplate-gulp-js-lib?type=dev
 [depstat-image]: https://david-dm.org/keidrun/boilerplate-gulp-js-lib/dev-status.svg
